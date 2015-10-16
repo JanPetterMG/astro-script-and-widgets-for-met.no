@@ -1,9 +1,9 @@
 {
-    "name": "JanPetterMG/astro-script-met.no",
+    "name": "JanPetterMG/astro-script-met-no",
     "type": "library",
     "description": "Astro script and widgets for met.no.",
     "keywords": ["met.no", "astro", "api"],
-    "homepage": "https://github.com/JanPetterMG/astro-script-met.no/",
+    "homepage": "https://github.com/JanPetterMG/astro-script-met-no/",
     "license": "MIT",
     "authors": [
         {
