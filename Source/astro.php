@@ -6,8 +6,8 @@
  * @author jpg
  * @link http://jpg.priv.no/scripts/astro/
  *
- * Licence: CC BY 3.0
- * @link http://creativecommons.org/licenses/by/3.0
+ * Licence: MIT
+ * @link https://opensource.org/licenses/MIT
  *
  * Meteorologisk institutt
  * Data from api.met.no are licensed under CC BY 3.0.
