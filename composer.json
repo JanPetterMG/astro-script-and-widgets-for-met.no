@@ -1,0 +1,21 @@
+{
+    "name": "JanPetterMG/astro-script-met.no",
+    "type": "library",
+    "description": "Astro script and widgets for met.no.",
+    "keywords": ["met.no", "astro", "api"],
+    "homepage": "https://github.com/JanPetterMG/astro-script-met.no/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan-Petter Gundersen",
+            "homepage": "http://jpg.priv.no",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [ "Source/" ]
+    }
+}
