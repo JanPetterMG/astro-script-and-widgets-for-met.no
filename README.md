@@ -1,8 +1,8 @@
-*Astro script and widgets for met.no.*
+**Astro script and widgets for met.no.**
 
 This is a script made for norwegian users, wanting a norwegian astro script on their webpage or blog.
 
-***LIVE DEMO: http://jpg.priv.no/scripts/astro/***
+**LIVE DEMO: http://jpg.priv.no/scripts/astro/**
 
 **Basic usage:**
 ````
@@ -14,7 +14,7 @@ astro_widget_small($location);
 
 If you prefer cordinates instead of names, you can use that too.
 
-***3 premade sizes available***
+**3 premade sizes available**
 - Small widget, for today only.
 - Medium widget, list style, defaults to 4 days.
 - Large widget, table style, defaults to 7 days.
@@ -31,7 +31,7 @@ If you prefer cordinates instead of names, you can use that too.
 - 3 templates
 - Make your own with ease, by re-using the back-end code
 
-Get it with Composer:
+**Get it with Composer:**
 Put this into your composer.json file
 ````
 {
