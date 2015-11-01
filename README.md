@@ -6,7 +6,7 @@ This is a script made for norwegian users, wanting a norwegian astro script on t
 
 **Basic usage:**
 ````
-require_once('/templates.php');
+require_once('/source/templates.php');
 
 $location = 'Oslo, Norway';
 
