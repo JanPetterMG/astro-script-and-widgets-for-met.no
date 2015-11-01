@@ -6,10 +6,14 @@ This is a script made for norwegian users, wanting a norwegian astro script on t
 
 **Basic usage:**
 ````
-require_once('/astro.php');
 require_once('/templates.php');
+
 $location = 'Oslo, Norway';
+
+// Choose your variant:
 astro_widget_small($location);
+astro_widget_medium($location);
+astro_widget_large($location);
 ````
 
 If you prefer cordinates instead of names, you can use that too.
