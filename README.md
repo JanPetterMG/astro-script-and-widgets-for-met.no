@@ -4,7 +4,7 @@ This is a script made for norwegian users, wanting a norwegian astro script on t
 
 **LIVE DEMO: http://jpg.priv.no/scripts/astro/**
 
-##Basic usage:##
+#####Basic usage:#####
 ````
 require_once('/source/templates.php');
 
@@ -18,12 +18,12 @@ astro_widget_large($location);
 
 If you prefer cordinates instead of names, you can use that too.
 
-###3 premade sizes available###
+#####3 premade sizes available#####
 - Small widget, for today only.
 - Medium widget, list style, defaults to 4 days.
 - Large widget, table style, defaults to 7 days.
 
-##Functions##
+#####Functions#####
 - Astro data from Yr.no
 - Sunrise and sunset
 - Moon rise, set and phase
@@ -35,12 +35,12 @@ If you prefer cordinates instead of names, you can use that too.
 - 3 templates
 - Make your own with ease, by re-using the back-end code
 
-##Get it with Composer:##
+####Download with Composer:####
 Put this into your composer.json file
 ````
 {
   "require": {
-    "JanPetterMG/astro-script-met.no": "dev-master",
+    "JanPetterMG/astro-script-met.no": "dev-master"
   }
 }
 ````
