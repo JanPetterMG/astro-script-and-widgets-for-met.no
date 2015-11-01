@@ -19,20 +19,23 @@ require_once(dirname(__FILE__) . '/astro.php');
  * @param  int $days - show this many days into the future
  * @param  boolean $show_location - show or hide text
  * @param  boolean $show_phase - show or hide the phase column
+ * @param  int $lat - latitude if static location is preferred
+ * @param  int $lon - longitude if static location is preferred
  * @return void
  */
-function astro_widget_large($address, $days = 7, $show_location = true, $show_phase = true)
+function astro_widget_large($address, $days = 7, $show_location = true, $show_phase = true, $lat = null, $lon = null)
 {
+    $location = $address;
 // Geocode API parameters
     $geocode_param['address'] = $address;
-    //$geocode_param['key'] = 'INSERT YOUR API_KEY HERE';
+    //$geocode_param['key'] = 'INSERT YOUR GOOGLE API_KEY HERE';
 
 // Sunrise API parameters
     $sunrise_param['from'] = date('Y-m-d', strtotime('now'));
     $sunrise_param['to'] = date('Y-m-d', time() + ($days * 86400) - 86400);
     //$sunrise_param['date'] = date('Y-m-d', strtotime('now'));
-    //$sunrise_param['lat'] = '59.9138688';
-    //$sunrise_param['lon'] = '10.7522454';
+    $sunrise_param['lat'] = $lat;
+    $sunrise_param['lon'] = $lon;
 
 // Google Maps: Geocode API request
     if (isset($geocode_param['address']) && !isset($sunrise_param['lat']) && !isset($sunrise_param['lon'])) {
@@ -178,20 +181,23 @@ function astro_widget_large($address, $days = 7, $show_location = true, $show_ph
  * @param  string $address - location to request
  * @param  int $days - show this many days into the future
  * @param  boolean $show_location - show or hide text
+ * @param  int $lat - latitude if static location is preferred
+ * @param  int $lon - longitude if static location is preferred
  * @return void
  */
-function astro_widget_medium($address, $days = 3, $show_location = true)
+function astro_widget_medium($address, $days = 3, $show_location = true, $lat = null, $lon = null)
 {
+    $location = $address;
 // Geocode API parameters
     $geocode_param['address'] = $address;
-    //$geocode_param['key'] = 'INSERT YOUR API_KEY HERE';
+    //$geocode_param['key'] = 'INSERT YOUR GOOGLE API_KEY HERE';
 
 // Sunrise API parameters
     $sunrise_param['from'] = date('Y-m-d', strtotime('now'));
     $sunrise_param['to'] = date('Y-m-d', time() + ($days * 86400));
     //$sunrise_param['date'] = date('Y-m-d', strtotime('now'));
-    //$sunrise_param['lat'] = '59.9138688';
-    //$sunrise_param['lon'] = '10.7522454';
+    $sunrise_param['lat'] = $lat;
+    $sunrise_param['lon'] = $lon;
 
 // Google Maps: Geocode API request
     if (isset($geocode_param['address']) && !isset($sunrise_param['lat']) && !isset($sunrise_param['lon'])) {
@@ -322,20 +328,23 @@ function astro_widget_medium($address, $days = 3, $show_location = true)
  *
  * @param  string $address - location to request
  * @param  boolean $show_location - show or hide text
+ * @param  int $lat - latitude if static location is preferred
+ * @param  int $lon - longitude if static location is preferred
  * @return void
  */
-function astro_widget_small($address, $show_location = true)
+function astro_widget_small($address, $show_location = true, $lat = null, $lon = null)
 {
+    $location = $address;
 // Geocode API parameters
     $geocode_param['address'] = $address;
-    //$geocode_param['key'] = 'INSERT YOUR API_KEY HERE';
+    //$geocode_param['key'] = 'INSERT YOUR GOOGLE API_KEY HERE';
 
 // Sunrise API parameters
     $sunrise_param['date'] = date('Y-m-d', strtotime('now'));
     //$sunrise_param['from'] = date('Y-m-d', strtotime('now'));
     //$sunrise_param['to'] = date('Y-m-d', strtotime('now'));
-    //$sunrise_param['lat'] = '59.9138688';
-    //$sunrise_param['lon'] = '10.7522454';
+    $sunrise_param['lat'] = $lat;
+    $sunrise_param['lon'] = $lon;
 
 // Google Maps: Geocode API request
     if (isset($geocode_param['address']) && !isset($sunrise_param['lat']) && !isset($sunrise_param['lon'])) {
