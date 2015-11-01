@@ -30,8 +30,8 @@ astro_widget_large($location);
 - Custom number of days
 - Show or hide the moon phase
 - Show or hide the location in the title bar
-- 3 templates
-- Make your own with ease, by re-using the back-end code
+- 3 premade templates
+- Build your own with ease
 
 ####Download with Composer:####
 Put this into your composer.json file
