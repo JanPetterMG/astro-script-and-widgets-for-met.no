@@ -1,4 +1,4 @@
-**Astro script and widgets for met.no.**
+**Astro script and widgets for Yr.no.**
 
 This is a script made for norwegian users, wanting a norwegian astro script on their webpage or blog.
 
