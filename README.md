@@ -16,10 +16,8 @@ astro_widget_medium($location);
 astro_widget_large($location);
 ````
 
-If you prefer cordinates instead of names, you can use that too.
-
 #####3 premade sizes available#####
-- Small widget, for today only.
+- Small widget, sun and moon today
 - Medium widget, list style, defaults to 4 days.
 - Large widget, table style, defaults to 7 days.
 
