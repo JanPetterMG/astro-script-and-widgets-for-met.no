@@ -456,6 +456,11 @@ function astro_widget_small($address, $show_location = true, $lat = null, $lon =
                         ?>
                     </tr>
                     <?php
+                } else {
+                    ?>
+                    <tr>
+                    </tr>
+                    <?php
                 }
             }
             ?>
