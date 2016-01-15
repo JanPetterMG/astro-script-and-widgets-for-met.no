@@ -1,5 +1,7 @@
 #Astro script and widgets for Yr.no.#
 
+[![Join the chat at https://gitter.im/JanPetterMG/astro-script-yr-no](https://badges.gitter.im/JanPetterMG/astro-script-yr-no.svg)](https://gitter.im/JanPetterMG/astro-script-yr-no?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a script made for norwegian users, wanting a norwegian astro script on their webpage or blog.
 
 **LIVE DEMO: http://jpg.priv.no/scripts/astro/**
