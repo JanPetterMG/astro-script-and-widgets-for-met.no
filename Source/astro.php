@@ -1,7 +1,7 @@
 <?php
 /**
  * Astro widget script
- * Version 1.0.1 [2016-11-23]
+ * Version 1.0.3 [2016-11-23]
  *
  * @author jpg
  * @link http://jpg.priv.no/scripts/astro/
