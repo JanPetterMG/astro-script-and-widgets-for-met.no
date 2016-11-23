@@ -1,7 +1,7 @@
 <?php
 /**
  * Astro widget script
- * Version 1.0.0 [2015-09-27]
+ * Version 1.0.1 [2016-11-23]
  *
  * @author jpg
  * @link http://jpg.priv.no/scripts/astro/
@@ -13,7 +13,7 @@
  * Data from api.met.no are licensed under CC BY 3.0.
  * @link http://creativecommons.org/licenses/by/3.0
  * @link http://api.met.no/license_data.html
- * @link http://api.met.no/weatherapi/sunrise/1.0/documentation
+ * @link http://api.met.no/weatherapi/sunrise/1.1/documentation
  *
  * Google Maps
  * @link https://developers.google.com/maps/documentation/geocoding/intro
@@ -51,7 +51,7 @@ function astro_api_geocode($parameters)
 function astro_api_sunrise($parameters)
 {
     $debug = false;
-    $api = 'http://api.met.no/weatherapi/sunrise/1.0/?';
+    $api = 'http://api.met.no/weatherapi/sunrise/1.1/?';
     foreach ($parameters as $key => $value)
         $api .= $key . '=' . $value . ';';
     $api = substr($api, 0, -1);
