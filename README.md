@@ -1,4 +1,4 @@
-#Astro script and widgets for Yr.no.#
+# Astro script and widgets for Yr.no
 
 [![Join the chat at https://gitter.im/JanPetterMG/astro-script-yr-no](https://badges.gitter.im/JanPetterMG/astro-script-yr-no.svg)](https://gitter.im/JanPetterMG/astro-script-yr-no?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -6,7 +6,7 @@ This is a script made for norwegian users, wanting a norwegian astro script on t
 
 **LIVE DEMO: https://jpg.cloud/scripts/astro/**
 
-#####Basic usage:#####
+### Basic usage:
 ````
 require_once('/source/templates.php');
 
@@ -18,12 +18,12 @@ astro_widget_medium($location);
 astro_widget_large($location);
 ````
 
-#####3 premade sizes available#####
+### 3 premade sizes available
 - Small widget, sun and moon today
 - Medium widget, list style, defaults to 4 days.
 - Large widget, table style, defaults to 7 days.
 
-#####Functions#####
+### Functions
 - Astro data from Yr.no
 - Sunrise and sunset
 - Moon rise, set and phase
@@ -35,7 +35,7 @@ astro_widget_large($location);
 - 3 premade templates
 - Build your own with ease
 
-####Download with Composer:####
+### Download using Composer:
 Put this into your composer.json file
 ````
 {
