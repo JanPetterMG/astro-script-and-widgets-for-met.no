@@ -4,7 +4,7 @@
 
 This is a script made for norwegian users, wanting a norwegian astro script on their webpage or blog.
 
-**LIVE DEMO: http://jpg.priv.no/scripts/astro/**
+**LIVE DEMO: https://jpg.cloud/scripts/astro/**
 
 #####Basic usage:#####
 ````
