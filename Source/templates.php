@@ -4,7 +4,7 @@
  * Last change 2015-09-27
  *
  * @author jpg
- * @link http://jpg.priv.no/scripts/astro/
+ * @link http://jpg.cloud/scripts/astro/
  *
  * Made for Astro widget script
  * Version 1.0 compatible
@@ -51,7 +51,7 @@ function astro_widget_large($address, $days = 7, $show_location = true, $show_ph
     $location_text = (isset($location) && $show_location) ? ' for ' . $location : '';
     ?>
     <div class="astrowidget astrowidgetL">
-        <!-- Astro widget by jpg: http://jpg.priv.no/scripts/astro/ -->
+        <!-- Astro widget by jpg: http://jpg.cloud/scripts/astro/ -->
         <table>
             <tr>
                 <th colspan="<?php echo ($show_phase) ? 6 : 5; ?>">
@@ -60,23 +60,23 @@ function astro_widget_large($address, $days = 7, $show_location = true, $show_ph
             </tr>
             <tr>
                 <th>
-                    <p><img src="http://jpg.priv.no/pic/astro/solarsystem50h.png"
+                    <p><img src="http://jpg.cloud/pic/astro/solarsystem50h.png"
                             style="max-height: 50px; max-width: 128px;"/>
                     </p>
                 </th>
                 <th colspan="2">
-                    <p style="white-space: nowrap;">opp<img src="http://jpg.priv.no/pic/astro/sun50h.png"
+                    <p style="white-space: nowrap;">opp<img src="http://jpg.cloud/pic/astro/sun50h.png"
                                                             style="max-height: 50px;"/>ned</p>
                 </th>
                 <th colspan="2">
-                    <p style="white-space: nowrap;">opp<img src="http://jpg.priv.no/pic/astro/moon50h.png"
+                    <p style="white-space: nowrap;">opp<img src="http://jpg.cloud/pic/astro/moon50h.png"
                                                             style="max-height: 50px;"/>ned</p>
                 </th>
                 <?php
                 if ($show_phase) {
                     ?>
                     <th>
-                        <p><img src="http://jpg.priv.no/pic/astro/moonphase128w.png"
+                        <p><img src="http://jpg.cloud/pic/astro/moonphase128w.png"
                                 style="max-width: 128px; max-height: 50px;"/></p>
                     </th>
                     <?php
@@ -214,7 +214,7 @@ function astro_widget_medium($address, $days = 3, $show_location = true, $lat = 
     $location_text = (isset($location) && $show_location) ? ' for ' . $location : '';
     ?>
     <div class="astrowidget astrowidgetM">
-        <!-- Astro widget by jpg: http://jpg.priv.no/scripts/astro/ -->
+        <!-- Astro widget by jpg: http://jpg.cloud/scripts/astro/ -->
         <table>
             <tr>
                 <th colspan="4">
@@ -227,9 +227,9 @@ function astro_widget_medium($address, $days = 3, $show_location = true, $lat = 
 
 
                         <p style="font-size: 110%; text-align: center; vertical-align: text-bottom;"><img
-                                src="http://jpg.priv.no/pic/astro/sun30h.png"
+                                src="http://jpg.cloud/pic/astro/sun30h.png"
                                 style="max-width: 30px; float: left;"/><?php echo strftime('%A %e. %B', strtotime($key)); ?>
-                            <img src="http://jpg.priv.no/pic/astro/moon30h.png"
+                            <img src="http://jpg.cloud/pic/astro/moon30h.png"
                                  style="max-height: 30px; float: right;"/>
                         </p>
                     </th>
@@ -257,7 +257,7 @@ function astro_widget_medium($address, $days = 3, $show_location = true, $lat = 
                     }
                     ?>
                     <td style="text-align: center; vertical-align: middle;">
-                        <img src="http://jpg.priv.no/pic/astro/up8w.png" style="max-height: 8px; max-width: 8px;"/>
+                        <img src="http://jpg.cloud/pic/astro/up8w.png" style="max-height: 8px; max-width: 8px;"/>
                     </td>
                     <?php
                     if ($value['moon']['never_rise']) {
@@ -293,7 +293,7 @@ function astro_widget_medium($address, $days = 3, $show_location = true, $lat = 
                     }
                     ?>
                     <td style="text-align: center; vertical-align: middle;">
-                        <img src="http://jpg.priv.no/pic/astro/down8w.png" style="max-height: 8px; max-width: 8px;"/>
+                        <img src="http://jpg.cloud/pic/astro/down8w.png" style="max-height: 8px; max-width: 8px;"/>
                     </td>
                     <?php
                     if (isset($insert_moon_p2) && $insert_moon_p2) {
@@ -361,7 +361,7 @@ function astro_widget_small($address, $show_location = true, $lat = null, $lon =
     $location_text = (isset($location) && $show_location) ? $location . ' - ' : '';
     ?>
     <div class="astrowidget astrowidgetS">
-        <!-- Astro widget by jpg: http://jpg.priv.no/scripts/astro/ -->
+        <!-- Astro widget by jpg: http://jpg.cloud/scripts/astro/ -->
         <table>
             <tr>
                 <th colspan="5">
@@ -376,7 +376,7 @@ function astro_widget_small($address, $show_location = true, $lat = null, $lon =
                 </tr>
                 <tr>
                     <th rowspan="2" style="text-align: center; vertical-align: middle;">
-                        <img src="http://jpg.priv.no/pic/astro/sun50h.png"
+                        <img src="http://jpg.cloud/pic/astro/sun50h.png"
                              style="max-height: 50px;"/>
                     </th>
                     <?php
@@ -400,7 +400,7 @@ function astro_widget_small($address, $show_location = true, $lat = null, $lon =
                     }
                     ?>
                     <td style="text-align: center; vertical-align: middle;">
-                        <img src="http://jpg.priv.no/pic/astro/up8w.png" style="max-height: 8px; max-width: 8px;"/>
+                        <img src="http://jpg.cloud/pic/astro/up8w.png" style="max-height: 8px; max-width: 8px;"/>
                     </td>
                     <?php
                     if ($value['moon']['never_rise']) {
@@ -423,7 +423,7 @@ function astro_widget_small($address, $show_location = true, $lat = null, $lon =
                     }
                     ?>
                     <th rowspan="2" style="text-align: center; vertical-align: middle;">
-                        <img src="http://jpg.priv.no/pic/astro/moon50h.png"
+                        <img src="http://jpg.cloud/pic/astro/moon50h.png"
                              style="max-height: 50px;"/>
                     </th>
                 </tr>
@@ -441,7 +441,7 @@ function astro_widget_small($address, $show_location = true, $lat = null, $lon =
                         }
                         ?>
                         <td style="text-align: center; vertical-align: middle;">
-                            <img src="http://jpg.priv.no/pic/astro/down8w.png"
+                            <img src="http://jpg.cloud/pic/astro/down8w.png"
                                  style="max-height: 8px; max-width: 8px;"/>
                         </td>
                         <?php
