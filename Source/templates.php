@@ -1,7 +1,7 @@
 <?php
 /**
  * Astro widget templates
- * Last change 2015-09-27
+ * Last change 2018-04-03
  *
  * @author jpg
  * @link http://jpg.cloud/scripts/astro/
