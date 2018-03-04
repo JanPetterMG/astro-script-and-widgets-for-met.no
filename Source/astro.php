@@ -1,10 +1,10 @@
 <?php
 /**
  * Astro widget script
- * Version 1.0.3 [2016-11-23]
+ * Version 1.0.5 [2018-03-04]
  *
  * @author jpg
- * @link http://jpg.priv.no/scripts/astro/
+ * @link http://jpg.cloud/scripts/astro/
  *
  * Licence: MIT
  * @link https://opensource.org/licenses/MIT
