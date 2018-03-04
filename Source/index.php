@@ -3,7 +3,7 @@
  * Astro widget front-end sample
  *
  * @author jpg
- * @link http://jpg.priv.no/scripts/astro/
+ * @link http://jpg.cloud/scripts/astro/
  *
  * Made for Astro widget templates
  * Requires Astro widget script
